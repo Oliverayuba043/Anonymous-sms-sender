@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <p class="ann">ANONYMOUS SMS SENDER</p>
+            <div class="avatar">
+                <img src="comment.png" alt="User Image">
+            </div>
+            <form id="messageForm">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number e.g., +2348100110011" required>
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" placeholder="Type your Message here" required></textarea>
+
+                <button type="button" id="sendBtn">send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
